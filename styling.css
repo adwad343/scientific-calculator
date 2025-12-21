@@ -1,0 +1,14 @@
+.header{ width: 400 px;
+    height: 300px;
+    align-self: center;
+    background-color: rgb(224, 220, 245);
+    border-radius: 20px;
+    text-align: center;
+
+}
+.background{
+    color: black;
+}
+.first{
+    border-radius: 20%;
+}
