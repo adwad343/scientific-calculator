@@ -1,14 +1,30 @@
-.header{ width: 400 px;
-    height: 300px;
-    align-self: center;
+.header {
+
+
     background-color: rgb(224, 220, 245);
     border-radius: 20px;
     text-align: center;
-
 }
-.background{
+
+.background {
     color: black;
 }
-.first{
+
+.first {
     border-radius: 20%;
+}
+
+button {
+    border-radius: 30px;
+    margin: 6px;
+    padding: 8px 12px;
+}
+
+#numbers {
+    width: 300px;
+    height: 300px;
+
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 8px;
 }
