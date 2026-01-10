@@ -20,6 +20,13 @@ button {
     padding: 8px 12px;
 }
 
+#trial {
+    width: 400px;
+    height: 400px;
+    background-color: chocolate;
+
+}
+
 #numbers {
     width: 300px;
     height: 300px;
