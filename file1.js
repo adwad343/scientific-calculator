@@ -84,7 +84,7 @@ equals.onclick = () => {
     }
     numbers.push(n);
     numbers.push(...operator);
-    console.log(numbers);
+
 
 
     numbers.forEach(i => {
@@ -112,11 +112,9 @@ equals.onclick = () => {
 
 
     input.value = stack.pop();
-
-
-
-
-
+    stack = [];
+    numbers = [];
+    operator = [];
 
 }
 
@@ -125,6 +123,7 @@ equals.onclick = () => {
 
 
 let a = document.getElementsByTagName("button");
+// accepting input from user
 for (let i = 0; i < a.length; i++) {
     if (a[i].id !== "eq") {
         a[i].onclick = () => {
