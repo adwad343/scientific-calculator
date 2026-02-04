@@ -135,7 +135,17 @@ for (let i = 0; i < a.length; i++) {
         }
     }
 }
+let c = document.getElementById("clear");
+c.onclick = () => {
+    input.value = "";
+    operator = [];
+    numbers = [];
 
+}
+let d = document.getElementById("delete");
+d.onclick = () => {
+    input.value = input.value.substring(0, input.value.length - 1);
+}
 
 
 
